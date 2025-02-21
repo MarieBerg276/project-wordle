@@ -30,8 +30,6 @@ function Game() {
         }
     }
 
-    console.log(gameStatus)
-
     return (
         <>
             <GuessResults guesses={guesses} answer={answer}/>
