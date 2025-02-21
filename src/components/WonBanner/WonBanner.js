@@ -5,9 +5,9 @@ function WonBanner({numGuesses}) {
     return (
         <Banner status={'happy'}>
             <p>
-                <strong>Congratulations!</strong>
-                Got it in {" "}
-                <strong>{numGuesses} guesses</strong>.
+                <strong>Congratulations! </strong>
+                Got it in
+                <strong>{numGuesses === 1 ? " 1 guess" : ` ${numGuesses} guesses`}</strong>.
             </p>
         </Banner>
     );
