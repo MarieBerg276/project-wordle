@@ -38,7 +38,7 @@ function Game() {
                 gameStatus === 'won' && <WonBanner numGuesses={guesses.length}/>
             }
             {
-                gameStatus === 'lost' && <LostBanner/>
+                gameStatus === 'lost' && <LostBanner answer={answer}/>
             }
         </>);
 }
